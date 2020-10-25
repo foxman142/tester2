@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Justin\Desktop\tester2\tester2\tester2.UWP\bin\x86\Debug\tester2.UWP_1.0.0.0_x86_Debug.appx
+SymbolPackage=C:\Users\Justin\Desktop\tester2\tester2\tester2.UWP\obj\x86\Debug\Symbols\tester2.UWP_1.0.0.0_x86_Debug.appxsym

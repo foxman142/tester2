@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<local:HomeBasePage xmlns="http://xamarin.com/schemas/2014/forms"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    xmlns:local="clr-namespace:tester2"
+                    x:Class="tester2.MainPage"
+                    Title="Tester"
+                    Padding="10">
+    
+    <TableView Intent="Menu">
+        <TableRoot>
+            <TableSection>
+                <TextCell Text="Tester"
+                          Detail="Learn basic graphics concepts and coordinates"
+                          Command="{Binding NavigateCommand}"
+                          CommandParameter="{x:Type local:Create.CreateHomePage}" />
+
+            </TableSection>
+        </TableRoot>
+    </TableView>
+</local:HomeBasePage>
